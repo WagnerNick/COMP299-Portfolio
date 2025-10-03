@@ -1,4 +1,5 @@
 import "./Home.css";
+import profileImg from "../assets/me.jpg";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       </div>
 
       <div className="home-image">
-        <img src="src/assets/me.jpg" alt="Profile" />
+        <img src={profileImg} alt="Profile" />
       </div>
     </section>
   );

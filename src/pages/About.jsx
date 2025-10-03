@@ -1,4 +1,5 @@
 import "./About.css";
+import profileImg from "../assets/me.jpg";
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
 
       <div className="about-grid">
         <div className="image-card">
-          <img src="src/assets/me.jpg" alt="Profile" />
+          <img src={profileImg} alt="Profile" />
         </div>
 
         <div className="about-card bio-card">
