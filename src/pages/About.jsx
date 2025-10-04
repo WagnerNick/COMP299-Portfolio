@@ -25,7 +25,7 @@ export default function About() {
             experimenting, and building new projects that bring ideas to life.
           </p>
 
-          <a href="src/assets/NickWagner Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn primary">
+          <a href="/NickWagner Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn primary">
             View Resume
           </a>
         </div>

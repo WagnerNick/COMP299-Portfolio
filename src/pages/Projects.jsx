@@ -1,19 +1,22 @@
 import "./Projects.css";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
 
 export default function Projects() {
   const projects = [
     {
-      img: "src/assets/project1.png",
+      img: {project1},
       title: "Unity Platformer",
       desc: "A 2D platformer built in Unity with a grapling focus, animations, and level design. Focused on gameplay mechanics and polish.",
     },
     {
-      img: "src/assets/project2.png",
+      img: {project2},
       title: "Retro Game Recreations",
       desc: "Various recreations of retro games within Unity, remaking all aspects of the origionals and adding creative twists as well.",
     },
     {
-      img: "src/assets/project3.png",
+      img: {project3},
       title: "Restaurant Website",
       desc: "A functional website for a fake restaurant. With a menu and tabs",
     },
